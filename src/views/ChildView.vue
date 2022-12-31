@@ -49,10 +49,7 @@ mergeArray<number|string>([1,233],['1','3'])
 </script>
 <template>
   <h1>This is an child page</h1>
-  <input
-    :value="modelValue"
-    @input="$emit('update:modelValue', $event.target.value)"
-  />
+  
 </template>
 
 <style>
